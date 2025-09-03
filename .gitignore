@@ -28,3 +28,5 @@ app.db
 # Misc
 .python-version
 
+.env
+
