@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nano-banana"
+version = "0.1.0"
+description = "Minimal FastAPI + SQLite application"
+authors = []
+readme = "README.md"
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+fastapi = "*"
+uvicorn = { version = "*", extras = ["standard"] }
+google = "^3.0.0"
+protobuf = {version = "<5", allow-prereleases = true}
+google-genai = "^1.32.0"
+google-cloud-aiplatform = "^1.111.0"
+python-dotenv = "^1.1.1"
+pillow = "^11.3.0"
+google-generativeai = "^0.8.5"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
+

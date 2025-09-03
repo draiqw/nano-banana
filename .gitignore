@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Poetry
+# (keep lock file tracked)
+
+# Build artifacts
+build/
+dist/
+
+# SQLite database
+app.db
+
+# Misc
+.python-version
+
